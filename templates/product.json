@@ -93,7 +93,13 @@
         "liquid_gmn8Yx": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div style=\"margin-top: -20px; margin-bottom: -15px;\" class=\"product-form__image product-form__image--left\">\n  <img loading=\"lazy\" style=\"max-width: 100%\" src=\"https://cdn.shopify.com/s/files/1/0940/3587/0079/files/Your_paragraph_text_19.png?v=1757160777\">\n</div>"
+            "liquid": "<div style=\"margin-top: -0px; margin-bottom: -15px;\" class=\"product-form__image product-form__image--left\">\n  <img loading=\"lazy\" style=\"max-width: 100%\" src=\"https://cdn.shopify.com/s/files/1/0940/3587/0079/files/Your_paragraph_text_19.png?v=1757160777\">\n</div>"
+          }
+        },
+        "liquid_hApezY": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div id='ss-reviews' style=\"margin-bottom: -50px;\"></div>"
           }
         }
       },
@@ -110,7 +116,8 @@
         "quantity_selector",
         "kaching_bundles_app_block_qQ9Mn3",
         "buy_buttons",
-        "liquid_gmn8Yx"
+        "liquid_gmn8Yx",
+        "liquid_hApezY"
       ],
       "settings": {
         "full_width": true,
@@ -213,11 +220,97 @@
         "padding_horizontal_mobile": 0,
         "border_thickness": 0
       }
+    },
+    "review_DVcT4h": {
+      "type": "review",
+      "blocks": {
+        "review_TCFEFf": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/RH5jFanPeO.jpg",
+            "hide_image": false,
+            "author": "Lucie B.",
+            "stars_count": 5,
+            "text": "Facile à utiliser, résultats visibles en 2 semaines. Même mon entourage a remarqué."
+          }
+        },
+        "review_tHaPDY": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/hheehguyugy.png",
+            "hide_image": false,
+            "author": "Élodie B.",
+            "stars_count": 5,
+            "text": "Je ne m’attendais à rien… et pourtant, mes cheveux tombent moins et ont repris du volume."
+          }
+        }
+      },
+      "block_order": [
+        "review_TCFEFf",
+        "review_tHaPDY"
+      ],
+      "name": "SS - Product Reviews",
+      "settings": {
+        "reviews_position": "above_buy",
+        "reviews_meta": "",
+        "reviews_radius": 0,
+        "review_padding_vertical": 8,
+        "review_padding_horizontal": 8,
+        "review_radius": 8,
+        "review_border_thickness": 0,
+        "image_width": 60,
+        "image_radius": 8,
+        "image_border_thickness": 0,
+        "image_ratio": "square",
+        "stars_size": 14,
+        "author_custom": false,
+        "author_font": "josefin_sans_n4",
+        "author_size": 14,
+        "author_size_mobile": 14,
+        "author_height": 130,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 12,
+        "text_size_mobile": 12,
+        "text_height": 130,
+        "text_mt": 4,
+        "arrow_size": 24,
+        "arrow_size_mobile": 24,
+        "arrow_icon_size": 16,
+        "arrow_icon_size_mobile": 16,
+        "arrow_border_thickness": 0,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": true,
+        "review_bg_color": "#fdf9f7",
+        "review_border_color": "#000000",
+        "image_border_color": "#000000",
+        "author_color": "#000000",
+        "text_color": "#000000",
+        "arrow_color": "#000000",
+        "arrow_hover_color": "#000000",
+        "arrow_bg_color": "#F3F3F3",
+        "arrow_bg_hover_color": "#DDDDDD",
+        "arrow_border_color": "#F3F3F3",
+        "arrow_border_hover_color": "#DDDDDD",
+        "stars_color": "#000000",
+        "background_color": "#F3F3F3",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 10,
+        "margin_bottom": 10,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "border_thickness": 0,
+        "lazy": true
+      }
     }
   },
   "order": [
     "main",
     "related-products",
-    "video_trust_iYd3yz"
+    "video_trust_iYd3yz",
+    "review_DVcT4h"
   ]
 }
