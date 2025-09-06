@@ -12,14 +12,16 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "vendor",
-          "settings": {}
-        },
         "title": {
           "type": "title",
           "settings": {
-            "heading_tag": "h2"
+            "heading_tag": "h5"
+          }
+        },
+        "liquid_pGY6jk": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div id=\"ss-trust-badges-3\" style=\"margin-top: -5px; margin-bottom: -10px;\"></div>"
           }
         },
         "badges": {
@@ -28,6 +30,7 @@
         },
         "price": {
           "type": "price",
+          "disabled": true,
           "settings": {
             "show_taxes_notice": false
           }
@@ -44,6 +47,7 @@
         },
         "separator": {
           "type": "separator",
+          "disabled": true,
           "settings": {}
         },
         "description": {
@@ -82,8 +86,8 @@
         }
       },
       "block_order": [
-        "vendor",
         "title",
+        "liquid_pGY6jk",
         "badges",
         "price",
         "rating",
@@ -134,10 +138,72 @@
         "product_card_background": "",
         "product_card_text_color": ""
       }
+    },
+    "video_trust_iYd3yz": {
+      "type": "video-trust",
+      "blocks": {
+        "item_PpjRbG": {
+          "type": "item",
+          "settings": {
+            "icon": "tick",
+            "image": "shopify://shop_images/coche_1.png",
+            "text": "<p><strong>Densifie visiblement</strong> la chevelure</p>"
+          }
+        },
+        "item_WphHDa": {
+          "type": "item",
+          "settings": {
+            "icon": "tick",
+            "image": "shopify://shop_images/coche_1.png",
+            "text": "<p>Apporte <strong>volume</strong>, brillance et <strong>éclat</strong></p>"
+          }
+        },
+        "item_MmMDc8": {
+          "type": "item",
+          "settings": {
+            "icon": "tick",
+            "image": "shopify://shop_images/coche_1.png",
+            "text": "<p><strong>Réduit la chute</strong> dès les premiers jours</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_PpjRbG",
+        "item_WphHDa",
+        "item_MmMDc8"
+      ],
+      "name": "SS - Trust badges #3",
+      "settings": {
+        "trust_position": "below_title",
+        "item_gap": 10,
+        "item_gap_mobile": 6,
+        "item_mt": 16,
+        "item_mt_mobile": 4,
+        "image_icon_size": 16,
+        "image_icon_size_mobile": 16,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 14,
+        "text_size_mobile": 14,
+        "text_height": 150,
+        "icon_color": "#121212",
+        "text_color": "#121212",
+        "background_color": "",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 12,
+        "margin_bottom": 12,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "border_thickness": 0
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "related-products",
+    "video_trust_iYd3yz"
   ]
 }
