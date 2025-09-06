@@ -142,5 +142,10 @@
       "product_color_display": "swatch",
       "product_info_alignment": "center"
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "/* Style pour le bouton Ajouter au panier */button[name=\"add\"],button[aria-label=\"Ajouter au panier\"],button[class*=\"add-to-cart\"],button[type=\"submit\"] {background-color: #000000 !important; /* Couleur noire */ color: #ffffff !important; /* Texte en blanc */ border: none !important; /* Pas de bordure */ border-radius: 5px !important; /* Coins légèrement arrondis */ padding: 11px 22px !important; /* Espacement interne */ font-size: 14px !important; /* Taille de la police */ font-weight: 600 !important; /* Texte gras mais pas trop (réduit de 900 à 600) */ text-transform: uppercase !important; /* Texte en majuscules */ cursor: pointer !important; /* Curseur en main */ text-align: center !important; /* Texte centré */ transition: background-color 0.3s ease !important; /* Animation pour le survol */ box-shadow: none !important; /* Supprime les ombres */ margin-bottom: -22px !important; /* Aucune marge sous le bouton */ margin-top: -15px !important; /* Ajout de la marge supérieure */}"
+    ]
   }
 }
