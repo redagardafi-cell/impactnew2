@@ -1,0 +1,316 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h5"
+          }
+        },
+        "liquid_pGY6jk": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div id=\"ss-trust-badges-3\" style=\"margin-top: -5px; margin-bottom: -10px;\"></div>"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "disabled": true,
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "disabled": true,
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "kaching_bundles_app_block_qQ9Mn3": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "liquid_gmn8Yx": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"margin-top: -0px; margin-bottom: -15px;\" class=\"product-form__image product-form__image--left\">\n  <img loading=\"lazy\" style=\"max-width: 100%\" src=\"https://cdn.shopify.com/s/files/1/0940/3587/0079/files/Your_paragraph_text_19.png?v=1757160777\">\n</div>"
+          }
+        },
+        "liquid_hApezY": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div id='ss-reviews' style=\"margin-bottom: -50px;\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "liquid_pGY6jk",
+        "badges",
+        "price",
+        "rating",
+        "payment_terms",
+        "separator",
+        "description",
+        "variant_picker",
+        "quantity_selector",
+        "kaching_bundles_app_block_qQ9Mn3",
+        "buy_buttons",
+        "liquid_gmn8Yx",
+        "liquid_hApezY"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "thumbnails",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": false,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "recommendations_count": 6,
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "You may also like",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "video_trust_iYd3yz": {
+      "type": "video-trust",
+      "blocks": {
+        "item_PpjRbG": {
+          "type": "item",
+          "settings": {
+            "icon": "tick",
+            "image": "shopify://shop_images/coche_1.png",
+            "text": "<p><strong>Densifie visiblement</strong> la chevelure</p>"
+          }
+        },
+        "item_WphHDa": {
+          "type": "item",
+          "settings": {
+            "icon": "tick",
+            "image": "shopify://shop_images/coche_1.png",
+            "text": "<p>Apporte <strong>volume</strong>, brillance et <strong>éclat</strong></p>"
+          }
+        },
+        "item_MmMDc8": {
+          "type": "item",
+          "settings": {
+            "icon": "tick",
+            "image": "shopify://shop_images/coche_1.png",
+            "text": "<p><strong>Réduit la chute</strong> dès les premiers jours</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_PpjRbG",
+        "item_WphHDa",
+        "item_MmMDc8"
+      ],
+      "name": "SS - Trust badges #3",
+      "settings": {
+        "trust_position": "below_title",
+        "item_gap": 10,
+        "item_gap_mobile": 6,
+        "item_mt": 16,
+        "item_mt_mobile": 4,
+        "image_icon_size": 16,
+        "image_icon_size_mobile": 16,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 14,
+        "text_size_mobile": 16,
+        "text_height": 150,
+        "icon_color": "#121212",
+        "text_color": "#121212",
+        "background_color": "",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 12,
+        "margin_bottom": 12,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "border_thickness": 0
+      }
+    },
+    "review_DVcT4h": {
+      "type": "review",
+      "blocks": {
+        "review_TCFEFf": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/RH5jFanPeO.jpg",
+            "hide_image": false,
+            "author": "Lucie B.",
+            "stars_count": 5,
+            "text": "Facile à utiliser, résultats visibles en 2 semaines. Même mon entourage a remarqué."
+          }
+        },
+        "review_tHaPDY": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/hheehguyugy.png",
+            "hide_image": false,
+            "author": "Élodie B.",
+            "stars_count": 5,
+            "text": "Je ne m’attendais à rien… et pourtant, mes cheveux tombent moins et ont repris du volume."
+          }
+        }
+      },
+      "block_order": [
+        "review_TCFEFf",
+        "review_tHaPDY"
+      ],
+      "name": "SS - Product Reviews",
+      "settings": {
+        "reviews_position": "above_buy",
+        "reviews_meta": "",
+        "reviews_radius": 0,
+        "review_padding_vertical": 8,
+        "review_padding_horizontal": 8,
+        "review_radius": 8,
+        "review_border_thickness": 0,
+        "image_width": 60,
+        "image_radius": 8,
+        "image_border_thickness": 0,
+        "image_ratio": "square",
+        "stars_size": 14,
+        "author_custom": false,
+        "author_font": "josefin_sans_n4",
+        "author_size": 14,
+        "author_size_mobile": 14,
+        "author_height": 130,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 12,
+        "text_size_mobile": 12,
+        "text_height": 130,
+        "text_mt": 4,
+        "arrow_size": 24,
+        "arrow_size_mobile": 24,
+        "arrow_icon_size": 16,
+        "arrow_icon_size_mobile": 16,
+        "arrow_border_thickness": 0,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": true,
+        "review_bg_color": "#fdf9f7",
+        "review_border_color": "#000000",
+        "image_border_color": "#000000",
+        "author_color": "#000000",
+        "text_color": "#000000",
+        "arrow_color": "#000000",
+        "arrow_hover_color": "#000000",
+        "arrow_bg_color": "#fdf9f7",
+        "arrow_bg_hover_color": "#DDDDDD",
+        "arrow_border_color": "#F3F3F3",
+        "arrow_border_hover_color": "#DDDDDD",
+        "stars_color": "#d6a897",
+        "background_color": "#faf2ef",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 10,
+        "margin_bottom": 10,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "video_trust_iYd3yz",
+    "review_DVcT4h"
+  ]
+}
