@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "header",
   "name": "Header group",
@@ -8,19 +17,24 @@
         "message": {
           "type": "message",
           "settings": {
-            "text": "Announce something here"
+            "text": "Announce something here",
+            "url": ""
           }
         }
       },
       "block_order": [
         "message"
       ],
+      "disabled": true,
       "settings": {
         "enable_sticky": false,
+        "autoplay": false,
+        "cycle_speed": 6,
         "text_size": "text-xs",
         "navigation_mode": "scrolling",
         "scrolling_speed": 10,
         "background": "#1a1a1a",
+        "background_gradient": "",
         "text_color": "#ffffff"
       }
     },
@@ -29,14 +43,18 @@
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": false,
-        "logo": "{{shop.brand.logo}}",
+        "logo": "shopify://shop_images/Tissu_gainant__9_-removebg-preview.png",
         "logo_max_width": 120,
-        "logo_mobile_max_width": 100,
+        "logo_mobile_max_width": 125,
         "menu": "main-menu",
+        "sidebar_menu": "",
+        "secondary_menu": "",
         "menu_open_trigger": "click",
         "opening_from": "bottom",
         "layout": "logo_left_navigation_center",
         "show_social_media": true,
+        "show_locale_selector": true,
+        "show_country_selector": true,
         "show_country_flag": true,
         "show_country_name": false,
         "transparent_header_text_color": "#ffffff",
@@ -44,10 +62,24 @@
         "background_opacity": 100,
         "background_blur_radius": 0
       }
+    },
+    "custom_liquid_pdjj93": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<div class=\"ozygmax-announcement-bar\">\n  <div class=\"announcement-text\">\n    LIVRAISON OFFERTE AUJOURD'HUI\n  </div>\n</div>\n\n<style>\n@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');\n\n.ozygmax-announcement-bar {\n  background-color: #D6A897; /* Beige clair élégant */\n  width: 100%;\n  text-align: center;\n  font-family: 'Inter', sans-serif;\n  padding: 6px 0;\n  position: relative;\n  z-index: 9999;\n}\n\n.announcement-text {\n  font-size: 13px;\n  font-weight: 600;\n  color: #fff; /* texte blanc */\n  text-transform: uppercase; /* met en majuscules */\n}\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
     "announcement-bar",
+    "custom_liquid_pdjj93",
     "header"
   ]
 }
