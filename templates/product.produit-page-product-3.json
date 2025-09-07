@@ -99,7 +99,7 @@
         "liquid_hApezY": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div id='ss-reviews' style=\"margin-bottom: -50px;\"></div>"
+            "liquid": "<div id='ss-reviews' style=\"margin-bottom: -80px;\"></div>"
           }
         }
       },
@@ -289,9 +289,9 @@
         "arrow_color": "#000000",
         "arrow_hover_color": "#000000",
         "arrow_bg_color": "#fdf9f7",
-        "arrow_bg_hover_color": "#DDDDDD",
-        "arrow_border_color": "#F3F3F3",
-        "arrow_border_hover_color": "#DDDDDD",
+        "arrow_bg_hover_color": "#dddddd",
+        "arrow_border_color": "#f3f3f3",
+        "arrow_border_hover_color": "#dddddd",
         "stars_color": "#d6a897",
         "background_color": "#faf2ef",
         "background_gradient": "",
@@ -305,12 +305,144 @@
         "border_thickness": 0,
         "lazy": true
       }
+    },
+    "rich_text_nPJrEG": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_eLM99K": {
+          "type": "heading",
+          "settings": {
+            "text": "Cheveux plus longs et plus denses, en seulement 60 jours",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_eLM99K"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_bAUcJa": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/87ab4661-bdca-4c00-954e-20a91e3a3653.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_wtQjfT": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_i49pmU": {
+          "type": "heading",
+          "settings": {
+            "text": "Une différence visible dès la première utilisation",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_i49pmU"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_ypgpBm": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/6a467f1bba3b84ee2f17b63ceabb4fbd.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_YTnrPC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_tyyN47": {
+          "type": "heading",
+          "settings": {
+            "text": "Testé et approuvé par nos clientes",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_tyyN47"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_6cKdax": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/ChatGPT_Image_21_aout_2025_23_32_23.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
     }
   },
   "order": [
     "main",
     "related-products",
     "video_trust_iYd3yz",
-    "review_DVcT4h"
+    "review_DVcT4h",
+    "rich_text_nPJrEG",
+    "image_with_text_overlay_bAUcJa",
+    "rich_text_wtQjfT",
+    "image_with_text_overlay_ypgpBm",
+    "rich_text_YTnrPC",
+    "image_with_text_overlay_6cKdax"
   ]
 }
