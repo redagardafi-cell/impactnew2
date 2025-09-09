@@ -432,6 +432,91 @@
         "overlay_opacity": 0
       }
     },
+    "faq_rRNQgp": {
+      "type": "faq",
+      "blocks": {
+        "item_dfmY4M": {
+          "type": "item",
+          "settings": {
+            "title": "Quel est le délai de livraison ?",
+            "content": "<p>Le délai de livraison standard est estimé entre 6 et 8 jours.</p>"
+          }
+        },
+        "item_cwYrW3": {
+          "type": "item",
+          "settings": {
+            "title": "La lumière rouge est-elle sans danger ?",
+            "content": "<p>Absolument, elle est conçue pour être douce et respectueuse de la peau.</p>"
+          }
+        },
+        "item_nYB7Jw": {
+          "type": "item",
+          "settings": {
+            "title": "Peut-on l’utiliser sur cheveux mouillés ?",
+            "content": "<p>Oui, mais il est recommandé d’essuyer légèrement les cheveux avant utilisation pour un meilleur confort.</p>"
+          }
+        },
+        "item_46g9ib": {
+          "type": "item",
+          "settings": {
+            "title": "Combien de temps dure une séance ?",
+            "content": "<p>Nous recommandons des sessions de 5 à 10 minutes selon vos besoins.</p>"
+          }
+        },
+        "item_VykmNN": {
+          "type": "item",
+          "settings": {
+            "title": "Est-ce compatible avec tous types de cheveux ?",
+            "content": "<p>Oui, la brosse convient à tous les types et longueurs de cheveux.</p>"
+          }
+        },
+        "item_9tRzCR": {
+          "type": "item",
+          "settings": {
+            "title": "Puis-je l’emporter en voyage ?",
+            "content": "<p>Oui, son design compact et sa batterie rechargeable en font un compagnon idéal.</p>"
+          }
+        },
+        "item_NgA7q3": {
+          "type": "item",
+          "settings": {
+            "title": "Y a-t-il une garantie ?",
+            "content": "<p>Oui, vous bénéficiez d’une garantie satisfaction avec remboursement possible sous 60 jours après réception.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_dfmY4M",
+        "item_cwYrW3",
+        "item_nYB7Jw",
+        "item_46g9ib",
+        "item_VykmNN",
+        "item_9tRzCR",
+        "item_NgA7q3"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Questions fréquentes",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
+        "answer_time": "Average answer time: 24h",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "#ffffff",
+        "accordion_text_color": ""
+      }
+    },
     "1757434521221106c2": {
       "type": "apps",
       "blocks": {
@@ -466,6 +551,7 @@
     "image_with_text_overlay_ypgpBm",
     "rich_text_YTnrPC",
     "image_with_text_overlay_6cKdax",
+    "faq_rRNQgp",
     "1757434521221106c2"
   ]
 }
