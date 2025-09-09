@@ -432,6 +432,28 @@
         "overlay_opacity": 0
       }
     },
+    "1757434521221106c2": {
+      "type": "apps",
+      "blocks": {
+        "trustoo_io_reviews_review_widget_JzctFn": {
+          "type": "shopify://apps/trustoo-io-reviews/blocks/review-widget/c8f15077-6475-4e86-ad06-b66038d5ba2c",
+          "settings": {
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "trustoo_io_reviews_review_widget_JzctFn"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "faq_rRNQgp": {
       "type": "faq",
       "blocks": {
@@ -501,8 +523,8 @@
         "title": "Questions fréquentes",
         "content": "",
         "team_avatar_width": 160,
-        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
-        "answer_time": "Average answer time: 24h",
+        "support_hours": "",
+        "answer_time": "",
         "button_text": "",
         "button_url": "",
         "text_position": "center",
@@ -515,28 +537,6 @@
         "button_text_color": "",
         "accordion_background": "#ffffff",
         "accordion_text_color": ""
-      }
-    },
-    "1757434521221106c2": {
-      "type": "apps",
-      "blocks": {
-        "trustoo_io_reviews_review_widget_JzctFn": {
-          "type": "shopify://apps/trustoo-io-reviews/blocks/review-widget/c8f15077-6475-4e86-ad06-b66038d5ba2c",
-          "settings": {
-            "product": ""
-          }
-        }
-      },
-      "block_order": [
-        "trustoo_io_reviews_review_widget_JzctFn"
-      ],
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
       }
     }
   },
@@ -551,7 +551,7 @@
     "image_with_text_overlay_ypgpBm",
     "rich_text_YTnrPC",
     "image_with_text_overlay_6cKdax",
-    "faq_rRNQgp",
-    "1757434521221106c2"
+    "1757434521221106c2",
+    "faq_rRNQgp"
   ]
 }
