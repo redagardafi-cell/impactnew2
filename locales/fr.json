@@ -319,7 +319,7 @@
       "item_count": {
         "one": "{{ count }} article",
         "other": "{{ count }} articles",
-        "zero": ""
+        "zero": " "
       },
       "continue_shopping": "Explorer nos produits",
       "weight": "Poids",
