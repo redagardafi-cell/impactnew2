@@ -446,8 +446,8 @@
       "powered_by_shopify": " "
     },
     "checkout": {
-      "payment": {
-        "credit_card_vaulting_sign_in_banner_button_label": " "
+      "customer_account": {
+        "sign_in_link_label": " "
       }
     }
   }
