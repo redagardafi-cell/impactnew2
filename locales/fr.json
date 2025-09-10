@@ -444,6 +444,11 @@
   "shopify": {
     "links": {
       "powered_by_shopify": " "
+    },
+    "checkout": {
+      "payment": {
+        "credit_card_vaulting_sign_in_banner_button_label": " "
+      }
     }
   }
 }
