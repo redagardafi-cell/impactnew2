@@ -99,7 +99,7 @@
         "liquid_gmn8Yx": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div style=\"margin-top: 30px; margin-bottom: -15px;\" class=\"product-form__image product-form__image--left\">\n  <img loading=\"lazy\" style=\"max-width: 100%\" src=\"https://cdn.shopify.com/s/files/1/0940/3587/0079/files/nssyhsy.png?v=1757595563\">\n</div>"
+            "liquid": "<div style=\"margin-top: 40px; margin-bottom: -10px;\" class=\"product-form__image product-form__image--left\">\n  <img loading=\"lazy\" style=\"max-width: 100%\" src=\"https://cdn.shopify.com/s/files/1/0940/3587/0079/files/nssyhsy.png?v=1757595563\">\n</div>"
           }
         },
         "liquid_hApezY": {
