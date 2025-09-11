@@ -99,7 +99,7 @@
         "liquid_gmn8Yx": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div style=\"margin-top: -0px; margin-bottom: -15px;\" class=\"product-form__image product-form__image--left\">\n  <img loading=\"lazy\" style=\"max-width: 100%\" src=\"https://cdn.shopify.com/s/files/1/0940/3587/0079/files/Your_paragraph_text_19.png?v=1757160777\">\n</div>"
+            "liquid": "<div style=\"margin-top: 15px; margin-bottom: -15px;\" class=\"product-form__image product-form__image--left\">\n  <img loading=\"lazy\" style=\"max-width: 100%\" src=\"https://media.discordapp.net/attachments/1399482247131959358/1415680763185070150/image.png?ex=68c416f4&is=68c2c574&hm=6ac32474a85b9966feb0af01911f9b1be9358420979ef5ae3f5b27898248d4aa&=&format=webp&quality=lossless&width=1860&height=164\">\n</div>"
           }
         },
         "liquid_hApezY": {
