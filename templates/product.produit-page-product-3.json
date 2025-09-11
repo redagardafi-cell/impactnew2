@@ -538,6 +538,29 @@
         "accordion_background": "#ffffff",
         "accordion_text_color": ""
       }
+    },
+    "related_products_YYPiR3": {
+      "type": "related-products",
+      "name": "Related products",
+      "settings": {
+        "recommendations_count": 6,
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Vous aimerez aussi",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
     }
   },
   "order": [
@@ -552,6 +575,7 @@
     "rich_text_YTnrPC",
     "image_with_text_overlay_6cKdax",
     "1757434521221106c2",
-    "faq_rRNQgp"
+    "faq_rRNQgp",
+    "related_products_YYPiR3"
   ]
 }
