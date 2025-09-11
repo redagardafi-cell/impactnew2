@@ -24,6 +24,12 @@
             "liquid": "<div id=\"ss-trust-badges-3\" style=\"margin-top: -5px; margin-bottom: -10px;\"></div>"
           }
         },
+        "liquid_mVxaRt": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"display: flex; align-items: center; gap: 8px; margin: 10px 0;\">\n  <!-- Rond rouge -->\n  <span style=\"display:inline-block; width:12px; height:12px; background-color:red; border-radius:50%;\"></span>\n  \n  <!-- Texte stock -->\n  <span style=\"font-weight: 600; color:#333; font-size:14px;\">\n    Il ne reste plus que <strong>12</strong> en stock\n  </span>\n</div>"
+          }
+        },
         "badges": {
           "type": "badges",
           "settings": {}
@@ -106,6 +112,7 @@
       "block_order": [
         "title",
         "liquid_pGY6jk",
+        "liquid_mVxaRt",
         "badges",
         "price",
         "rating",
@@ -544,7 +551,10 @@
       "name": "Related products",
       "settings": {
         "recommendations_count": 6,
-        "products": [],
+        "products": [
+          "gummies-cheveux-hairboost",
+          "envisha-retinol-collagen-cream-face-skin-care-anti-aging-wrinkle-deep-hydration-moisturizing-skin-health-whitening-exfoliation"
+        ],
         "full_width": true,
         "stack_products": true,
         "show_progress_bar": false,
