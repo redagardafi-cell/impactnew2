@@ -439,6 +439,85 @@
         "overlay_opacity": 0
       }
     },
+    "rich_text_CiN3fX": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_LfzWzM": {
+          "type": "heading",
+          "settings": {
+            "text": "3 étapes pour des cheveux en meilleure santé",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_LfzWzM"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": false,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "images_with_text_scrolling_9wD3tB": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_QgT8zD": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/download.webp",
+            "icon": "none",
+            "icon_width": 24,
+            "title": "Étape 1",
+            "content": "<p><strong>Insérez le sérum ou l'huile</strong><br/>Appliquez quelques gouttes de votre sérum ou huile essentielle préféré(e) (facultatif) dans le compartiment prévu à cet effet sur le masseur de cuir chevelu.</p>"
+          }
+        },
+        "item_3aXJnf": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/download-ezgif.com-video-to-gif-converter.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Étape 2",
+            "content": "<p><strong>Massez votre cuir chevelu</strong><br/>Sélectionnez le mode de massage souhaité. Brossez doucement l'appareil sur votre cuir chevelu, en partant de la racine des cheveux à l’avant jusqu’à l’arrière de la tête.<br/><br/></p>"
+          }
+        },
+        "item_gxWp39": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/download1-ezgif.com-video-to-gif-converter.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Étape 3",
+            "content": "<p><strong>Nettoyez l’appareil</strong><br/>Retirez le sérum ou l’huile restant avec un chiffon doux ou un mouchoir.<br/>Puis rincez l'appareil sous l'eau claire.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_QgT8zD",
+        "item_3aXJnf",
+        "item_gxWp39"
+      ],
+      "name": "Images and text scrolling",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": false,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "1757434521221106c2": {
       "type": "apps",
       "blocks": {
@@ -584,6 +663,8 @@
     "image_with_text_overlay_ypgpBm",
     "rich_text_YTnrPC",
     "image_with_text_overlay_6cKdax",
+    "rich_text_CiN3fX",
+    "images_with_text_scrolling_9wD3tB",
     "1757434521221106c2",
     "faq_rRNQgp",
     "related_products_YYPiR3"
