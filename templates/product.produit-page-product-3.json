@@ -397,6 +397,48 @@
         "overlay_opacity": 0
       }
     },
+    "rich_text_gYrq4z": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_LNCPJG": {
+          "type": "heading",
+          "settings": {
+            "text": "Stop à la chute avec votre sérum offert",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_LNCPJG"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_LyJr9y": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/ChatGPT_Image_14_sept._2025_01_29_54.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "rich_text_YTnrPC": {
       "type": "rich-text",
       "blocks": {
@@ -518,6 +560,54 @@
         "heading_gradient": ""
       }
     },
+    "1757434521221106c2": {
+      "type": "apps",
+      "blocks": {
+        "trustoo_io_reviews_review_widget_JzctFn": {
+          "type": "shopify://apps/trustoo-io-reviews/blocks/review-widget/c8f15077-6475-4e86-ad06-b66038d5ba2c",
+          "settings": {
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "trustoo_io_reviews_review_widget_JzctFn"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "related_products_YYPiR3": {
+      "type": "related-products",
+      "name": "Related products",
+      "settings": {
+        "recommendations_count": 6,
+        "products": [
+          "gummies-cheveux-hairboost",
+          "envisha-retinol-collagen-cream-face-skin-care-anti-aging-wrinkle-deep-hydration-moisturizing-skin-health-whitening-exfoliation"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Vous aimerez aussi",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "faq_rRNQgp": {
       "type": "faq",
       "blocks": {
@@ -602,54 +692,6 @@
         "accordion_background": "#ffffff",
         "accordion_text_color": ""
       }
-    },
-    "related_products_YYPiR3": {
-      "type": "related-products",
-      "name": "Related products",
-      "settings": {
-        "recommendations_count": 6,
-        "products": [
-          "gummies-cheveux-hairboost",
-          "envisha-retinol-collagen-cream-face-skin-care-anti-aging-wrinkle-deep-hydration-moisturizing-skin-health-whitening-exfoliation"
-        ],
-        "full_width": true,
-        "stack_products": true,
-        "show_progress_bar": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 3,
-        "subheading": "",
-        "title": "Vous aimerez aussi",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
-    "1757434521221106c2": {
-      "type": "apps",
-      "blocks": {
-        "trustoo_io_reviews_review_widget_JzctFn": {
-          "type": "shopify://apps/trustoo-io-reviews/blocks/review-widget/c8f15077-6475-4e86-ad06-b66038d5ba2c",
-          "settings": {
-            "product": ""
-          }
-        }
-      },
-      "block_order": [
-        "trustoo_io_reviews_review_widget_JzctFn"
-      ],
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
     }
   },
   "order": [
@@ -661,6 +703,8 @@
     "image_with_text_overlay_bAUcJa",
     "rich_text_wtQjfT",
     "image_with_text_overlay_ypgpBm",
+    "rich_text_gYrq4z",
+    "image_with_text_overlay_LyJr9y",
     "rich_text_YTnrPC",
     "image_with_text_overlay_6cKdax",
     "rich_text_CiN3fX",
