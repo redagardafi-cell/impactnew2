@@ -603,28 +603,6 @@
         "accordion_text_color": ""
       }
     },
-    "1757434521221106c2": {
-      "type": "apps",
-      "blocks": {
-        "trustoo_io_reviews_review_widget_JzctFn": {
-          "type": "shopify://apps/trustoo-io-reviews/blocks/review-widget/c8f15077-6475-4e86-ad06-b66038d5ba2c",
-          "settings": {
-            "product": ""
-          }
-        }
-      },
-      "block_order": [
-        "trustoo_io_reviews_review_widget_JzctFn"
-      ],
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "related_products_YYPiR3": {
       "type": "related-products",
       "name": "Related products",
@@ -650,6 +628,28 @@
         "product_card_background": "",
         "product_card_text_color": ""
       }
+    },
+    "1757434521221106c2": {
+      "type": "apps",
+      "blocks": {
+        "trustoo_io_reviews_review_widget_JzctFn": {
+          "type": "shopify://apps/trustoo-io-reviews/blocks/review-widget/c8f15077-6475-4e86-ad06-b66038d5ba2c",
+          "settings": {
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "trustoo_io_reviews_review_widget_JzctFn"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -665,8 +665,8 @@
     "image_with_text_overlay_6cKdax",
     "rich_text_CiN3fX",
     "images_with_text_scrolling_9wD3tB",
-    "faq_rRNQgp",
     "1757434521221106c2",
-    "related_products_YYPiR3"
+    "related_products_YYPiR3",
+    "faq_rRNQgp"
   ]
 }
