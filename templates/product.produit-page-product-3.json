@@ -413,7 +413,6 @@
       "block_order": [
         "heading_LNCPJG"
       ],
-      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,
@@ -426,7 +425,6 @@
     },
     "image_with_text_overlay_LyJr9y": {
       "type": "image-with-text-overlay",
-      "disabled": true,
       "name": "Image with text overlay",
       "settings": {
         "full_width": true,
