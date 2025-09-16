@@ -38,6 +38,19 @@
         "text_color": "#ffffff"
       }
     },
+    "custom_liquid_pdjj93": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<div class=\"ozygmax-announcement-bar\">\n  <div class=\"announcement-text\">\n    DERNIER JOUR : ÉCONOMISEZ PLUS DE 50%\n  </div>\n</div>\n\n<style>\n@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');\n\n.ozygmax-announcement-bar {\n  background-color: #D6A897; /* Beige clair élégant */\n  width: 100%;\n  text-align: center;\n  font-family: 'Inter', sans-serif;\n  padding: 6px 0;\n  position: relative;\n  z-index: 9999;\n}\n\n.announcement-text {\n  font-size: 13px;\n  font-weight: 600;\n  color: #fff; /* texte blanc */\n  text-transform: uppercase; /* met en majuscules */\n}\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "header": {
       "type": "header",
       "settings": {
@@ -61,19 +74,6 @@
         "reduce_padding": false,
         "background_opacity": 100,
         "background_blur_radius": 0
-      }
-    },
-    "custom_liquid_pdjj93": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": true,
-        "liquid": "<div class=\"ozygmax-announcement-bar\">\n  <div class=\"announcement-text\">\n    LIVRAISON OFFERTE AUJOURD'HUI\n  </div>\n</div>\n\n<style>\n@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');\n\n.ozygmax-announcement-bar {\n  background-color: #D6A897; /* Beige clair élégant */\n  width: 100%;\n  text-align: center;\n  font-family: 'Inter', sans-serif;\n  padding: 6px 0;\n  position: relative;\n  z-index: 9999;\n}\n\n.announcement-text {\n  font-size: 13px;\n  font-weight: 600;\n  color: #fff; /* texte blanc */\n  text-transform: uppercase; /* met en majuscules */\n}\n</style>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
       }
     }
   },
