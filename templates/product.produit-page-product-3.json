@@ -336,6 +336,20 @@
         "lazy": true
       }
     },
+    "custom_liquid_4VXyh7": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<style>\n  :root{\n    --accent:#D6A897;   /* couleur beige de ta charte */\n    --bg:#FBF3F4;       /* fond rosé léger */\n    --text:#111111;     /* texte en noir bien lisible */\n  }\n\n  .kk-marquee{\n    width:100%;\n    overflow:hidden;\n    background:var(--bg);\n    border-top:1px solid #E7CFCF;\n    border-bottom:1px solid #E7CFCF;\n  }\n\n  .kk-marquee-track{\n    display:inline-block;\n    white-space:nowrap;\n    animation: kk-scroll 18s linear infinite;\n    font-size:20px;\n    font-weight:700;\n    color:var(--accent);\n    padding:14px 0;\n  }\n\n  @keyframes kk-scroll{\n    0%   { transform: translateX(100%); }\n    100% { transform: translateX(-100%); }\n  }\n\n  /* Mobile : taille ajustée */\n  @media (max-width:640px){\n    .kk-marquee-track{ font-size:16px; }\n  }\n</style>\n\n<div class=\"kk-marquee\">\n  <div class=\"kk-marquee-track\">\n    Ma chevelure revit, c'est magique! 4,8/5 sur 12 000+ avis clientes\n  </div>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "rich_text_nPJrEG": {
       "type": "rich-text",
       "blocks": {
@@ -722,6 +736,7 @@
     "related-products",
     "video_trust_iYd3yz",
     "review_DVcT4h",
+    "custom_liquid_4VXyh7",
     "rich_text_nPJrEG",
     "image_with_text_overlay_bAUcJa",
     "rich_text_wtQjfT",
