@@ -113,7 +113,7 @@
         "liquid_gmn8Yx": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div style=\"margin-top: 40px; margin-bottom: -10px;\" class=\"product-form__image product-form__image--left\">\n  <img loading=\"lazy\" style=\"max-width: 100%\" src=\"https://cdn.discordapp.com/attachments/1271096181270904888/1422633125334220840/image.png?ex=68dd61d8&is=68dc1058&hm=43db81ef460c73cad475c9253cf874e3bb57a71cac2d221a18ccc723442e1ecc&\">\n</div>"
+            "liquid": "<div style=\"margin-top: 27px; margin-bottom: -10px;\" class=\"product-form__image product-form__image--left\">\n  <img loading=\"lazy\" style=\"max-width: 100%\" src=\"https://cdn.shopify.com/s/files/1/0940/3587/0079/files/gvgvcvyuzh.png?v=1759253212\">\n</div>"
           }
         },
         "liquid_cRVfBk": {
