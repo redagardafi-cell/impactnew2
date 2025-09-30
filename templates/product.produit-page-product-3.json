@@ -127,6 +127,13 @@
           "settings": {
             "liquid": "<div id='ss-reviews' style=\"margin-bottom: -80px;\"></div>"
           }
+        },
+        "liquid_yB9qpV": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "<style>\n  :root{\n    --accent:#D6A897;   /* couleur beige de ta charte */\n    --bg:#FBF6F4;       /* fond rosé léger */\n    --text:#111111;     /* texte en noir bien lisible */\n  }\n\n  .kk-marquee{\n    width:100%;\n    background:var(--bg);\n    border-top:1px solid #E7CFCF;\n    border-bottom:1px solid #E7CFCF;\n    text-align:center;\n    font-size:20px;\n    font-weight:700;\n    color:var(--text);\n    padding:10px 0;   /* espace haut et bas interne */\n    margin:15px 0;    /* espace externe haut et bas */\n  }\n\n  /* Mobile : taille ajustée */\n  @media (max-width:640px){\n    .kk-marquee{ font-size:16px; }\n  }\n</style>\n\n<div class=\"kk-marquee\">\n  La solution pour des cheveux forts & éclatants\n</div>"
+          }
         }
       },
       "block_order": [
@@ -147,7 +154,8 @@
         "buy_buttons",
         "liquid_gmn8Yx",
         "liquid_cRVfBk",
-        "liquid_hApezY"
+        "liquid_hApezY",
+        "liquid_yB9qpV"
       ],
       "settings": {
         "full_width": true,
