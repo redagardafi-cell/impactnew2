@@ -116,6 +116,12 @@
             "liquid": "<div style=\"margin-top: 40px; margin-bottom: -10px;\" class=\"product-form__image product-form__image--left\">\n  <img loading=\"lazy\" style=\"max-width: 100%\" src=\"https://cdn.shopify.com/s/files/1/0940/3587/0079/files/nssyhsy.png?v=1757595563\">\n</div>"
           }
         },
+        "liquid_cRVfBk": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n  :root{\n    --accent: #BF8B77;     /* beige un peu plus foncé */\n    --q: #111111;          /* questions en noir */\n    --bg: #FBF3F4;         /* fond rosé très léger */\n    --border: #E7CFCF;     /* bordure douce */\n    --radius: 6px;         /* coins moins arrondis */\n  }\n\n  .faq-wrap{ margin:18px 0; font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif; }\n  .faq-item{\n    background: var(--bg);\n    border: 1px solid var(--border);\n    border-radius: var(--radius);\n    margin: 10px 0;\n    transition: all .25s ease;\n  }\n  .faq-head{\n    display:flex; align-items:center; justify-content:space-between;\n    padding: 14px 16px;\n    cursor:pointer;\n  }\n  .faq-q{\n    color: var(--q);\n    font-weight: 600;\n    font-size: 16px;\n    letter-spacing: .3px;\n  }\n  .faq-toggle{\n    color: var(--accent);\n    font-size: 20px;\n    font-weight: 600;\n    line-height:1;\n    user-select:none;\n    transition: transform .25s ease;\n  }\n  .faq-body{ display:none; padding: 0 16px 14px 16px; }\n  .faq-a{\n    color: var(--accent);  /* texte réponse un peu plus foncé */\n    font-size: 15px;\n    line-height: 1.6;\n    margin-top: 6px;\n  }\n\n  .faq-item.open .faq-body{ display:block; }\n  .faq-item.open .faq-toggle{ transform: rotate(90deg); content:\"×\"; }\n</style>\n\n<div class=\"faq-wrap\" id=\"kk-faq\">\n  <!-- Item 1 -->\n  <div class=\"faq-item\">\n    <div class=\"faq-head\" data-faq-toggle>\n      <div class=\"faq-q\">Convient-elle à tous les types de cheveux ?</div>\n      <div class=\"faq-toggle\">+</div>\n    </div>\n    <div class=\"faq-body\">\n      <div class=\"faq-a\">\n        Oui, elle convient à tous les types de cheveux grâce à ses multiples fonctions revitalisantes.\n      </div>\n    </div>\n  </div>\n\n  <!-- Item 2 -->\n  <div class=\"faq-item\">\n    <div class=\"faq-head\" data-faq-toggle>\n      <div class=\"faq-q\">Quelle est la durée d'utilisation recommandée ?</div>\n      <div class=\"faq-toggle\">+</div>\n    </div>\n    <div class=\"faq-body\">\n      <div class=\"faq-a\">\n        Utilisez-la quotidiennement pendant 5–10 minutes pour des résultats optimaux.\n      </div>\n    </div>\n  </div>\n\n  <!-- Item 3 -->\n  <div class=\"faq-item\">\n    <div class=\"faq-head\" data-faq-toggle>\n      <div class=\"faq-q\">Quand puis-je voir des résultats ?</div>\n      <div class=\"faq-toggle\">+</div>\n    </div>\n    <div class=\"faq-body\">\n      <div class=\"faq-a\">\n        Les résultats peuvent apparaître en seulement deux semaines avec une utilisation régulière.\n      </div>\n    </div>\n  </div>\n\n  <!-- Item 4 (livraison) -->\n  <div class=\"faq-item\">\n    <div class=\"faq-head\" data-faq-toggle>\n      <div class=\"faq-q\">Quelle est la durée de livraison ?</div>\n      <div class=\"faq-toggle\">+</div>\n    </div>\n    <div class=\"faq-body\">\n      <div class=\"faq-a\">\n        La livraison dure entre 6 à 8 jours ouvrés.\n      </div>\n    </div>\n  </div>\n</div>\n\n<script>\n  document.querySelectorAll('#kk-faq [data-faq-toggle]').forEach(head=>{\n    head.addEventListener('click', ()=>{\n      const item = head.closest('.faq-item');\n      const open = item.classList.toggle('open');\n      head.querySelector('.faq-toggle').textContent = open ? '×' : '+';\n    });\n  });\n</script>"
+          }
+        },
         "liquid_hApezY": {
           "type": "liquid",
           "settings": {
@@ -140,6 +146,7 @@
         "kaching_bundles_app_block_qQ9Mn3",
         "buy_buttons",
         "liquid_gmn8Yx",
+        "liquid_cRVfBk",
         "liquid_hApezY"
       ],
       "settings": {
