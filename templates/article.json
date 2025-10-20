@@ -14,10 +14,12 @@
       "blocks": {
         "navigation": {
           "type": "navigation",
+          "disabled": true,
           "settings": {}
         },
         "comments": {
           "type": "comments",
+          "disabled": true,
           "settings": {
             "show_gravatar": true,
             "comments_per_page": 5
@@ -31,11 +33,11 @@
       "settings": {
         "allow_transparent_header": false,
         "layout": "content_first",
-        "show_author": true,
-        "show_date": true,
-        "show_comments_count": true,
-        "show_share_buttons": true,
-        "banner_background": "",
+        "show_author": false,
+        "show_date": false,
+        "show_comments_count": false,
+        "show_share_buttons": false,
+        "banner_background": "#f2f2f2",
         "banner_text_color": "",
         "overlay_color": "#000000",
         "overlay_opacity": 0,
@@ -52,7 +54,7 @@
         "heading_M8D4NQ": {
           "type": "heading",
           "settings": {
-            "text": "Video",
+            "text": "",
             "heading_tag": "h1"
           }
         }
@@ -66,16 +68,134 @@
         "full_width": true,
         "allow_transparent_header": false,
         "autoplay": false,
-        "video_size": "auto",
+        "video_size": "sm",
+        "video": "shopify://files/videos/VIDEO FONDATEUR.mp4",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
+      }
+    },
+    "blog_posts_LNdrWF": {
+      "type": "blog-posts",
+      "blocks": {
+        "blog_DLBLkb": {
+          "type": "blog",
+          "disabled": true,
+          "settings": {
+            "blog": "news",
+            "posts_count": 3,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "blog_DLBLkb"
+      ],
+      "name": "Blog posts",
+      "settings": {
+        "full_width": true,
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "",
+        "title": "",
+        "content": "<p>Les années passent, et à l'âge de 20 ans ans, Sarah se sent étouffée dans ses études, et décide de tout arrêter prête à affronter le monde du travail.<br/><br/>Mais là, c’est la désillusion: pression, fatigue, stress, horaires décalés…<br/> Elle s’oublie peu à peu. Et comme vous pouvez le deviner, cette accumulation a eu des répercussions très graves sur elle.<br/><br/></p>",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "image_with_text_overlay_CTGCez": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "sm",
+        "image": "shopify://shop_images/reparercheveuxabimes-tuccinardi4-1704191815945_1000x_d8d8d4b1-4751-4fa0-824d-918892a639e4.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "blog_posts_HGw4gY": {
+      "type": "blog-posts",
+      "name": "Blog posts",
+      "settings": {
+        "full_width": true,
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "",
+        "title": "",
+        "content": "<p>Deux ans s’écoulent ainsi. Deux ans de rythme effréné, jusqu’à ce que la vie l’arrête net: la mort de sa grand mère. Ce deuil brutal la renvoie à ses souvenirs d’enfance : les moments de calme, les massages, et cette sensation de paix absolue.<br/><br/>Ce soir-là, Sarah se rendit dans l’institut de sa grand-mère pour se recueillir une dernière fois. Et une idée naît :<br/>Créer un rituel moderne, accessible à toutes les femmes stressées,<br/>qui combine bien-être, soin et héritage.<br/><br/>C’est ainsi qu’est née HairBloom, et son produit-signature:<br/>une brosse 3-en-1 qui réunit les trois piliers du rituel de sa grand-mère.<br/><br/>Le massage, pour relâcher les tensions et stimuler la circulation.<br/>La lumière rouge, pour revitaliser le cuir chevelu et encourager la pousse.<br/>Les huiles de soin, pour nourrir, réparer et sublimer les cheveux.<br/><br/></p>",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "image_with_text_overlay_a9HJkk": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/bebbbebe-Photoroom.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "blog_posts_pedwP4": {
+      "type": "blog-posts",
+      "name": "Blog posts",
+      "settings": {
+        "full_width": true,
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "",
+        "title": "",
+        "content": "<p>Un rituel complet, pensé pour les femmes modernes qui, comme Sarah,<br/>refusent de laisser le stress détruire ce qu’elles ont de plus beau : leur confiance.<br/><br/>Sarah poursuit la mission de sa grand-mère:<br/>               aider chaque femme à se reconnecter à elle-même à travers ses cheveux.<br/>Parce que prendre soin de ses cheveux, c’est prendre soin de son esprit.<br/><br/></p>",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
       }
     }
   },
   "order": [
     "main",
-    "video_xUTWXj"
+    "video_xUTWXj",
+    "blog_posts_LNdrWF",
+    "image_with_text_overlay_CTGCez",
+    "blog_posts_HGw4gY",
+    "image_with_text_overlay_a9HJkk",
+    "blog_posts_pedwP4"
   ]
 }
